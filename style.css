@@ -1,0 +1,14 @@
+.header {
+    position: absolute;
+    text-align: center;
+    padding: 50px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background-color: #c5b358;
+    background-position: center;
+    background-size: cover;
+}
+    #header-title {
+        font-family: 'Caudex', serif;
+    }
