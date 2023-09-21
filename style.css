@@ -14,3 +14,17 @@
         font-family: 'Caudex', serif;
         font-size: 48px;
     }
+
+#margin {
+    margin-top: 250px;
+}
+.menu-item {
+    background-color: #c5b358;
+    box-shadow: 5px 5px;
+    text-align: center;
+    font-family: 'Caudex', serif;
+}
+    .menu-item-text {
+        padding: 10px;
+        
+    }
