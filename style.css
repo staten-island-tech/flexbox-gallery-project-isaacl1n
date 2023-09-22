@@ -19,11 +19,26 @@ body {
         font-size: 3.6rem;
     }
 
-.flex-container {
+.flex-container-1 {
     margin-top: 250px;
     display: flex;
-    justify-content: space-around;
-    flex-grow: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.flex-container-2 {
+    margin-top: 33vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.flex-container-3 {
+    margin-top: 33vh; margin-bottom: 33vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .menu-item {
     background-color: #c5b358;
@@ -31,8 +46,6 @@ body {
     box-shadow: 5px 5px;
     text-align: center;
     font-family: 'Caudex', serif;
-    display: flex;
-    justify-content: space-between;
 }
     .menu-item-text {
         padding: 10px;
