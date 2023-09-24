@@ -44,6 +44,7 @@ body {
     background-color: #c5b358;
     border-radius: 10px;
     box-shadow: 5px 5px;
+    padding: 10px;
     text-align: center;
     font-family: 'Caudex', serif;
 }
