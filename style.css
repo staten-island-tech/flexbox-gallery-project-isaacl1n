@@ -18,8 +18,23 @@ body {
     #header-title {
         font-family: 'Caudex', serif;
         font-size: 3.6rem;
+        animation: 2s title ease-out 1;
     }
-
+        @keyframes title {
+            0% {
+                opacity: 0;
+                transform: translateY(-100%);
+            }
+            20% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 0.75;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
 .flex-container {
     margin-top: 250px; margin-left: auto; margin-right: auto;
     display: flex;
