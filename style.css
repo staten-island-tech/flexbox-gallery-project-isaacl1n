@@ -69,3 +69,19 @@ body {
             height: 20rem; width: 20rem;
             margin-left: auto; margin-right: auto;
         }
+    .menu-item-milk-1:hover {
+        outline: 1rem black solid;
+        background-color: gold;
+    }
+    .menu-item-milk-2:hover {
+        transform: translateY(-20px);
+        background-color: gold;
+    }
+    .menu-item-milk-3:hover {
+        transform: skew(-10deg);
+        background-color: gold;
+    }
+    .menu-item-milk-4:hover {
+        transform: rotate(180deg);
+        background-color: gold;
+    }
