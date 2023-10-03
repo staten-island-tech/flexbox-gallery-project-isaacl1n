@@ -85,3 +85,6 @@ body {
         transform: rotate(180deg);
         background-color: gold;
     }
+    @media
+        (min-width: 481px) and (max-width: 781px) {
+        }
