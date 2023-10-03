@@ -86,5 +86,6 @@ body {
         background-color: gold;
     }
     @media
-        (min-width: 481px) and (max-width: 781px) {
-        }
+        (min-width: 481px) and (max-width: 781px) {}
+    @media
+        (min-width: 720px) and (max-width: 1080px) {}
